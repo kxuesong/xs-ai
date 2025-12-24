@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(xargs:*)",
+      "Bash(findstr:*)",
+      "Bash(mvn spring-boot:run:*)",
+      "Bash(telnet 117.72.148.218 3306)",
+      "Bash(ls:*)",
+      "Bash(java:*)",
+      "Bash(timeout /t 10 /nobreak)",
+      "Bash(export JAVA_HOME=\"C:\\\\Users\\\\xuesong\\\\.jdks\\\\ms-17.0.15\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(\"D:\\\\apache-maven\\\\apache-maven-3.8.1\\\\bin\\\\mvn.cmd\" -version)",
+      "Bash(\"D:\\\\apache-maven\\\\apache-maven-3.8.1\\\\bin\\\\mvn.cmd\" clean package -DskipTests -f pom.xml)",
+      "Bash(timeout /t 15 /nobreak)",
+      "Bash(\"D:\\\\apache-maven\\\\apache-maven-3.8.1\\\\bin\\\\mvn.cmd\" spring-boot:run)",
+      "Bash(\"D:\\\\apache-maven\\\\apache-maven-3.8.1\\\\bin\\\\mvn.cmd\" clean install -DskipTests)",
+      "Bash(dir:*)",
+      "Bash(export JAVA_HOME=\"/c/Users/xuesong/.jdks/ms-17.0.15\")",
+      "Bash(\"/c/Program Files/MySQL/MySQL Server 8.4/bin/mysql\" --version)",
+      "Bash(\"/c/Program Files/MySQL/MySQL Server 5.7/bin/mysql\" --version)",
+      "Bash(\"/c/Program Files/MySQL/MySQL Server 5.7/bin/mysql\" -h 117.72.148.218 -u root -pKOUxuesong.123 -e \"CREATE DATABASE IF NOT EXISTS \\\\`xs-ai\\\\` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;\")",
+      "Bash(\"/c/Program Files/MySQL/MySQL Server 5.7/bin/mysql\" -h 117.72.148.218 -u root -pKOUxuesong.123 xs-ai -e \"SHOW TABLES;\")"
+    ]
+  }
+}

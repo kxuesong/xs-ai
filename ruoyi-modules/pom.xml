@@ -26,6 +26,8 @@
         <!-- 新添加的数字人模块-->
         <module>ruoyi-aihuman</module>
         <module>ruoyi-workflow</module>
+        <!-- 游戏设计模块 -->
+        <module>ruoyi-game-design</module>
     </modules>
 
     <properties>

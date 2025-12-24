@@ -15,9 +15,16 @@ spring:
         master:
           type: ${spring.datasource.type}
           driverClassName: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/ruoyi-ai?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
+          url: jdbc:mysql://117.72.148.218:3306/xs_ai?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
           username: root
-          password: root
+          password: KOUxuesong.123
+        # 游戏设计数据库（独立数据源 - SQL Server）
+        game:
+          type: ${spring.datasource.type}
+          driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+          url: jdbc:sqlserver://117.72.148.218:1433;databaseName=2FUN_DEV_CLIENT_DESIGN;encrypt=false;trustServerCertificate=true
+          username: sa
+          password: KOUxuesong.123
 
       hikari:
         # 最大连接池数量
@@ -43,7 +50,7 @@ spring:
 spring.data:
   redis:
     # 地址
-    host: 127.0.0.1
+    host: 117.72.148.218
     # 端口，默认为6379
     port: 6379
     # 数据库索引

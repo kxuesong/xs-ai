@@ -72,6 +72,12 @@
             <artifactId>ruoyi-aihuman</artifactId>
         </dependency>
 
+        <!-- 游戏设计模块 -->
+        <dependency>
+            <groupId>org.ruoyi</groupId>
+            <artifactId>ruoyi-game-design</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
